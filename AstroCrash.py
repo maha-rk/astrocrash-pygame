@@ -27,8 +27,12 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Asteroid Game")
 
 # Fonts
+<<<<<<< HEAD
 #pygame.font.init()
 #font = pygame.font.SysFont("Arial", 24)
+=======
+# font = pygame.font.SysFont("Arial", 24)
+>>>>>>> c46fd06 (Get AstroCrash running and fix pygame environment issues)
 
 # Ship class (includes movement and rotation)
 class Ship:
