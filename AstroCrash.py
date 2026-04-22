@@ -184,4 +184,8 @@ while running:
 
     pygame.display.update()
 
+<<<<<<< HEAD
 pygame.quit()
+=======
+pygame.quit()
+>>>>>>> e9cfe16 (Add ship-asteroid collision and player lives)
