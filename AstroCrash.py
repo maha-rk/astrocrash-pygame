@@ -27,6 +27,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Asteroid Game")
 
 # Fonts
+pygame.font.init()
 font = pygame.font.SysFont("Arial", 24)
 
 # Ship class (includes movement and rotation)
